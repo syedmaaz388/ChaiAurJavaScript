@@ -27,3 +27,15 @@ console.log(newDate.getMonth());
 console.log(newDate.getTime());
 
 console.log(newDate.getDay());
+
+
+
+const milliseconds = 76329456;
+
+const seconds = Math.floor((milliseconds / 1000) % 60);
+
+const minutes = Math.floor((milliseconds / 1000 / 60) % 60);
+
+const hours = Math.floor((milliseconds / 1000 / 60 / 60) % 24);
+
+console.log(hours);
